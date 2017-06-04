@@ -6,48 +6,47 @@ div {
 	height: 447px;
 	width: 560px;
 	background-color: #80cdc6;
-	overflow:hidden;
+	overflow: hidden;
+    position: absolute;
 }
 .clouds {
-position: relative;
+position: absolute;
     top: -8px;
     left: 213px;
     height: 125px;
     z-index: 1;
+    overflow: hidden;
 }
 
 .world {
-
-    position: relative;
-    top: -35px;
+ position: absolute;
+    top: 93px;
     z-index: 2;
-    height: 75%;
+    height: 336px;
     left: -6px;
 }
 .ship {
-    left: 12px;
-    position: relative;
-    top: -183px;
+    left: 14px;
+    position: absolute;
+    top: 287px;
     z-index: 3;
     size: 120%;
-    width: 21%;
-
+    width: 115px;
 }
-
 
 .water {
-        left: -8px;
-    position: relative;
-    top: -198px;
+       left: -7px;
+    position: absolute;
+    top: 393px;
     z-index: 4;
     size: 120%;
-    width: 103%;
-}
+    width: 573px;}
+
 .fouter {
-	background-color: #176c7f;
+	    background-color: #176c7f;
     width: 560px;
     height: 10px;
-    position: relative;
+    position: absolute;
     z-index: 5;
-    top: -206px;
+    top: 437px;x;
 }
